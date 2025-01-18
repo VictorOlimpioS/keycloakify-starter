@@ -5,10 +5,19 @@
 @tailwind utilities;
 
 body.kcBodyClass {
-    @apply bg-[url(./assets/img/background.jpg)] bg-no-repeat bg-center bg-fixed;
+    @apply bg-none;
     @apply font-geist;
 }
 
 .kcHeaderWrapperClass {
-    @apply text-3xl font-bold underline;
+    @apply text-3xl font-bold text-black;
+}
+
+.kcFormCardClass {
+    @apply border-none shadow-none;
+}
+
+body.kcHeaderWrapperClass {
+    font-family: "Inter";
+    @apply text-[#0F172A];
 }
